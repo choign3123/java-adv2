@@ -1,13 +1,13 @@
 package io.member;
 
-import io.member.impl.DateMemberRepository;
+import io.member.impl.ObjectMemberRepository;
 
 import java.util.List;
 import java.util.Scanner;
 
 public class MemberConsoleMain {
 
-    private static final MemberRepository repository = new DateMemberRepository();
+    private static final MemberRepository repository = new ObjectMemberRepository();
 
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
